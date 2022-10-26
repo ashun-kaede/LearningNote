@@ -1,5 +1,5 @@
 // C++ implementation of Dynamic Array
-#include 
+#include<iostream> 
 using namespace std;
 
 template <class T>
@@ -58,3 +58,18 @@ public:
 
 
 };
+
+int main() {
+    DynamicArray<char> list;
+    list.add('1');
+    list.add('2');
+    list.add('3');
+    list.add('4');
+    list.add('5');
+    list.add('6');
+    list.add('7');
+    list.add('8');
+    list.add('9');
+    list.printList();
+    return 0;
+}
